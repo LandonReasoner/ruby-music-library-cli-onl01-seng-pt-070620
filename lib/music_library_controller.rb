@@ -5,7 +5,7 @@ class MusicLibraryController
   end
   
   def call
-    input = gets.strip
+    input = ''
     
     while input != 'exit'
       
@@ -19,6 +19,9 @@ class MusicLibraryController
       puts "To quit, type 'exit'."
       puts "What would you like to do?"
       
+      input = gets.strip
+      
+      case input 
       
       end
   end
